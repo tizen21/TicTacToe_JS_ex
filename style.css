@@ -1,1 +1,33 @@
-/* CSS code goes here */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#table {
+  width: 30rem;
+  height: 30rem;
+  background-color: rgb(26, 26, 134);
+  color: white;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+#table div {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  font-size: 2rem;
+  flex: 0 1 30%;
+}
+
+#info {
+  text-align: center;
+  margin-top: 16px;
+}
